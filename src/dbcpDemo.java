@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class dbcpDemo {
-
+//硬编码方式
         public static DataSource getDataSource_dbcp(){
             BasicDataSource dbcp=new BasicDataSource();
             dbcp.setDriverClassName("com.mysql.cj.jdbc.Driver");
